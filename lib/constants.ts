@@ -15,8 +15,7 @@ export const projects = [
 		imageUrl: "./stellar_flyby.jpg",
 		date: "Jun 2025 - Present",
 		collaborators: ["Prof. Shude Mao", "Prof. Shigeru Ida","Dr. Yaping Li"],
-		link: "#",
-		videolink: "#"
+		link: "#"
 	},
 	{
 		id: 3,
@@ -55,8 +54,7 @@ export const projects = [
 		imageUrl: "./solar_system.jpg",
 		date: "Oct 2023 - Jun 2024",
 		collaborators: ["Prof. Shude Mao"],
-		link: "#",
-		videolink: "#"
+		link: "#"
 	},
 	{
 		id: 7,
@@ -65,8 +63,7 @@ export const projects = [
 		imageUrl: "./galaxy.jpg",
 		date: "Feb 2025 - Jun 2025",
 		collaborators: ["Prof. Zheng Cai", "Fujiang Yu"],
-		link: "https://github.com/Caozy21/astro-super-resolution",
-		videolink: "#"
+		link: "https://github.com/Caozy21/astro-super-resolution"
 	}
 ];
 

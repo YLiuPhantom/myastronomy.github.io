@@ -73,7 +73,7 @@ export default function ProjectCard({
                   href={link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-4"
+                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-4"
               >
                   View Project Details
                   <ExternalLink className="ml-1 h-3 w-3" />
@@ -86,7 +86,7 @@ export default function ProjectCard({
                   href={videolink} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
               >
                   Talk Video
                   <ExternalLink className="ml-1 h-3 w-3" />
