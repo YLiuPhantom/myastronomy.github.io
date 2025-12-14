@@ -5,7 +5,7 @@ import ProjectCard from '@/components/projects/ProjectCard';
 import { projects } from '@/lib/constants';
 
 export const metadata: Metadata = {
-	title: 'Projects | Zhuoya Cao',
+	title: 'Research | Zhuoya Cao',
 	description: 'Explore the research projects and laboratory work conducted by Zhuoya Cao in the field of astronomy.',
 };
 

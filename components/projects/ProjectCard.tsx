@@ -73,7 +73,7 @@ export default function ProjectCard({
                   href={link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-4"
+                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-2"
               >
                   View Project Details
                   <ExternalLink className="ml-1 h-3 w-3" />
