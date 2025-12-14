@@ -13,9 +13,11 @@ const educationData = [
     period: 'Jun 2025 - Present',
     description: 'Specializing in theoretical and simulation astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks and AGN accretion disks.',
     achievements: [
-      'Poster presented at 2025 Science Meeting of the Earth 2.0 Apace Mission',
-      'Posters to be presented at the 2025 International Conference on Exoplanets and Planet Formation & the 247th AAS Meeting',
-      'Two papers in planetary dynamics under review and one accepted'
+      '[Publication] Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal',
+      '[Publication] Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, under review by the Astrophysical Journal',
+      '[Poster] Zhuoya Cao, Abraham Loeb, Morgan MacLeod, A Comet Shower at the Pliocene-Pleistocene Transition Triggered by the Close Approach of HD7977. The Annual Meeting of the Earth 2.0 Space Mission, Aug 2025, Shanghai, China',
+      '[Poster] Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The International Conference on Exoplanets and Planet Formation, Dec 2025, Shanghai, China',
+      '[Poster] Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The 247th AAS Annual Meeting, Jan 2026, Phoenix, United States'
     ]
   },
   {
@@ -29,7 +31,10 @@ const educationData = [
       'Full GPA for astronomy courses (4.0/4.0)',
       'Scholarship for Comprehensive Excellence of Tsinghua University',
       'Tsinghua Xuetang Scholarship (for Tsien Excellence Program)',
-      'Undergraduate research project on planetary dynamics and super resolution'
+      'Minister of Sports, Student Union of Xingjian College',
+      'Undergraduate research project on planetary dynamics and super resolution',
+      '[Publication] Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports, doi: 10.48550/arXiv.2511.11814',
+      '[Publication] Zhuoya Cao, Fujiang Yu, Mingyu Li, Zheng Cai*, HST to JWST Super-Resolution Imaging by ControlNet, in preparation'
     ]
   },
   {
