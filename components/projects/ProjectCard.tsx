@@ -89,7 +89,7 @@ export default function ProjectCard({
                   className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
               >
                   Talk Video
-                  <ExternalLink className="ml-1 h-3 w-3" />
+                  <ExternalLink className="ml-16 h-3 w-3" />
               </Link>
           )}
 
