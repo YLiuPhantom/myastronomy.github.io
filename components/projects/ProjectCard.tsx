@@ -13,6 +13,7 @@ interface ProjectCardProps {
   date: string;
   collaborators: string[];
   link?: string;
+  videolink?: string;
   index: number;
 }
 
@@ -23,6 +24,7 @@ export default function ProjectCard({
   date,
   collaborators,
   link,
+  videolink,
   index,
 }: ProjectCardProps) {
   return (
@@ -74,6 +76,19 @@ export default function ProjectCard({
             <ExternalLink className="ml-1 h-3 w-3" />
           </Link>
         )}
+
+        {videolink && (
+          <Link 
+            href={videolink} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+          >
+            Talk Video
+            <ExternalLink className="ml-1 h-3 w-3" />
+          </Link>
+        )}
+
       </div>
     </motion.div>
   );
