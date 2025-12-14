@@ -28,6 +28,7 @@ export default function ProjectsPage() {
 							date={project.date}
 							collaborators={project.collaborators}
 							link={project.link}
+							videolink={project.videolink}
 							index={index}
 						/>
 					))}
