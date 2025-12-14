@@ -6,8 +6,7 @@ export const projects = [
 		imageUrl: "./AGNdisk.jpg",
 		date: "Nov 2025 - Present",
 		collaborators: ["Prof. Douglas N.C. Lin","Dr. Tingtao Zhou","Jiamu Huang"],
-		link: "#",
-		videolink: "#"
+		link: "#"
 	},
 	{
 		id: 2,
