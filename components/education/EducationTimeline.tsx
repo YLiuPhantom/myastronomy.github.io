@@ -13,10 +13,13 @@ const educationData = [
     period: 'Jun 2025 - Present',
     description: 'Specializing in theoretical and simulation astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks and AGN accretion disks.',
     achievements: [
+      ],
+    publications: [
       '[Publication] Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal',
       '[Publication] Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, under review by the Astrophysical Journal',
-      '[Poster] Zhuoya Cao, Abraham Loeb, Morgan MacLeod, A Comet Shower at the Pliocene-Pleistocene Transition Triggered by the Close Approach of HD7977. The Annual Meeting of the Earth 2.0 Space Mission, Aug 2025, Shanghai, China',
-      '[Poster] Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The International Conference on Exoplanets and Planet Formation, Dec 2025, Shanghai, China',
+      ],
+    posters: [
+      '[Poster] Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims. The International Conference on Exoplanets and Planet Formation, Dec 2025, Shanghai, China',
       '[Poster] Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The 247th AAS Annual Meeting, Jan 2026, Phoenix, United States'
     ]
   },
@@ -33,8 +36,13 @@ const educationData = [
       'Tsinghua Xuetang Scholarship (for Tsien Excellence Program)',
       'Minister of Sports, Student Union of Xingjian College',
       'Undergraduate research project on planetary dynamics and super resolution',
-      '[Publication] Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports, doi: 10.48550/arXiv.2511.11814',
-      '[Publication] Zhuoya Cao, Fujiang Yu, Mingyu Li, Zheng Cai*, HST to JWST Super-Resolution Imaging by ControlNet, in preparation'
+      ],
+    publications: [
+      'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports, doi: 10.48550/arXiv.2511.11814',
+      'Zhuoya Cao, Fujiang Yu, Mingyu Li, Zheng Cai*, HST to JWST Super-Resolution Imaging by ControlNet, in preparation'
+    ],
+    posters: [
+      'Zhuoya Cao, Abraham Loeb, Morgan MacLeod, A Comet Shower at the Pliocene-Pleistocene Transition Triggered by the Close Approach of HD7977. The Annual Meeting of the Earth 2.0 Space Mission, Aug 2025, Shanghai, China'
     ]
   },
   {
@@ -46,6 +54,10 @@ const educationData = [
     description: 'Complement fundation in astronomy from cosmology, stellar physics to planetary physics',
     achievements: [
       'Undergraduate research intern on astronomical image reduction from Seimei telescope'
+    ],
+    publications: [
+    ],
+    posters: [
     ]
   }
 ];
@@ -95,6 +107,31 @@ export default function EducationTimeline() {
                     ))}
                   </ul>
                 </div>
+
+                <div>
+                  <h4 className="font-semibold text-primary mb-2 flex items-center">
+                    <Award className="w-4 h-4 mr-2 flex-shrink-0" />
+                    Publications
+                  </h4>
+                  <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
+                    {item.publications.map((publication, i) => (
+                      <li key={i}>{publication}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-primary mb-2 flex items-center">
+                    <Award className="w-4 h-4 mr-2 flex-shrink-0" />
+                    Posters
+                  </h4>
+                  <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
+                    {item.posters.map((poster, i) => (
+                      <li key={i}>{poster}</li>
+                    ))}
+                  </ul>
+                </div>
+
               </div>
             </div>
           </div>
