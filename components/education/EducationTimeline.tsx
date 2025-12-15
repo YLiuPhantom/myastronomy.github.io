@@ -122,27 +122,24 @@ export default function EducationTimeline() {
 
     return (
       <li key={i}>
-        <span className="flex flex-col">
+        <span className="text-muted-foreground text-sm">
           {/* 1. 完整文本内容 */}
-          <span className="text-muted-foreground text-sm">
-            {item.text}
-          </span>
+          {item.text}
 
-          {/* 2. 只有在有链接时才显示 [link] 超链接 */}
+          {/* 2. 只有在有链接时才显示 [link] 超链接
           {hasLink && (
-            <div className="mt-1 self-end flex-shrink-0">
-              <Link
-                href={item.link as string}
-                target="_blank"
-                rel="noopener noreferrer"
-                // 确保链接文本也是 text-sm，并使用 text-primary 覆盖继承的 text-muted-foreground
-                className="font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center text-sm"
-              >
-                [link]
-                <ExternalLink className="ml-1 h-3 w-3" /> 
-              </Link>
-            </div>
-          )}
+            <Link
+              href={item.link as string} // TypeScript 认为 link 不为 null
+              target="_blank"
+              rel="noopener noreferrer"
+              // ml-2 用于分隔文本和 [link] 标签
+              // text-primary 用于保持链接颜色，并提供 hover 效果
+              className="ml-2 font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center"
+            >
+              [link]
+              <ExternalLink className="ml-1 h-3 w-3" /> 
+            </Link>
+          )} */}
 
         </span>
       </li>
