@@ -122,8 +122,7 @@ export default function EducationTimeline() {
 
     return (
       <li key={i} className="list-disc list-inside">
-        <span className="text-muted-foreground text-sm inline-flex items-center">
-          
+        <span className="space-y-1 ml-1 text-muted-foreground text-sm inline-flex items-center">
           {/* 1. 完整文本内容 */}
           {item.text}
 
@@ -198,7 +197,7 @@ export default function EducationTimeline() {
                       <BookOpen className="w-4 h-4 mr-2 flex-shrink-0" /> {/* 🌟 新图标 */}
                       Publications
                     </h4>
-                    <ul className="space-y-1 list-inside ml-1 text-muted-foreground">
+                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
                       {item.publications.map((publication, i) => (
                         renderStructuredItem(publication, 'Publication', i)
                       ))}
@@ -212,7 +211,7 @@ export default function EducationTimeline() {
                       <Mic className="w-4 h-4 mr-2 flex-shrink-0" /> {/* 🌟 新图标 */}
                       Talks
                     </h4>
-                    <ul className="space-y-1 list-inside ml-1 text-muted-foreground">
+                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
                       {item.talks.map((talk, i) => (
                         renderStructuredItem(talk, 'Talk', i)
                       ))}
