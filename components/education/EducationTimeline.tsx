@@ -62,7 +62,7 @@ const educationData = [
       ],
     publications: [
       {
-        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports, doi: 10.48550/arXiv.2511.11814',
+        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports',
         link: 'https://www.nature.com/articles/s41598-025-29033-y'
       },
       {
@@ -126,7 +126,7 @@ export default function EducationTimeline() {
           {/* 1. 完整文本内容 */}
           {item.text}
 
-          {/* 2. 只有在有链接时才显示 [link] 超链接
+          {/* 2. 只有在有链接时才显示 [link] 超链接 */}
           {hasLink && (
             <Link
               href={item.link as string} // TypeScript 认为 link 不为 null
@@ -134,12 +134,12 @@ export default function EducationTimeline() {
               rel="noopener noreferrer"
               // ml-2 用于分隔文本和 [link] 标签
               // text-primary 用于保持链接颜色，并提供 hover 效果
-              className="ml-2 font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center"
+              className="ml-2 text-base hover:text-primary/80 transition-colors inline-flex items-center"
             >
               [link]
               <ExternalLink className="ml-1 h-3 w-3" /> 
             </Link>
-          )} */}
+          )}
 
         </span>
       </li>
