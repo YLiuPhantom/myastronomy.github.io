@@ -197,7 +197,7 @@ export default function EducationTimeline() {
                       <BookOpen className="w-4 h-4 mr-2 flex-shrink-0" /> {/* 🌟 新图标 */}
                       Publications
                     </h4>
-                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
+                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground text-sm">
                       {item.publications.map((publication, i) => (
                         renderStructuredItem(publication, 'Publication', i)
                       ))}
@@ -211,7 +211,7 @@ export default function EducationTimeline() {
                       <Mic className="w-4 h-4 mr-2 flex-shrink-0" /> {/* 🌟 新图标 */}
                       Talks
                     </h4>
-                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
+                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground text-sm">
                       {item.talks.map((talk, i) => (
                         renderStructuredItem(talk, 'Talk', i)
                       ))}
@@ -225,7 +225,7 @@ export default function EducationTimeline() {
                       <ImageIcon className="w-4 h-4 mr-2 flex-shrink-0" /> {/* 🌟 新图标 */}
                       Posters
                     </h4>
-                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground">
+                    <ul className="space-y-1 list-disc list-inside ml-1 text-muted-foreground text-sm">
                       {item.posters.map((poster, i) => (
                         <li key={i}>{poster}</li> 
                       ))}
