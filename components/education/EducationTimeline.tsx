@@ -19,15 +19,15 @@ const educationData = [
       ],
     publications: [
       {
-        text: 'Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal',
+        text: 'Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal.',
         link: 'http://arxiv.org/abs/2511.21328'
       },
       {
-        text: 'Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, under review by the Astrophysical Journal',
+        text: 'Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, under review by the Astrophysical Journal.',
         link: ''
       },
       {
-        text: 'Zhuoya Cao, Jiamu Huang, Douglas N.C. Lin, Tingtao Zhou, Prolific Nitrogen Production and Metallicity Gradient in AGN Accretion Disk, in preparation',
+        text: 'Zhuoya Cao, Jiamu Huang, Douglas N.C. Lin, Tingtao Zhou, Prolific Nitrogen Production and Metallicity Gradient in AGN Accretion Disk, in preparation.',
         link: ''
       }
       ],
@@ -42,8 +42,8 @@ const educationData = [
       }
       ],
     posters: [
-      'Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims. The International Conference on Exoplanets and Planet Formation, Dec 2025, Shanghai, China',
-      'Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The 247th AAS Annual Meeting, Jan 2026, Phoenix, United States'
+      'Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims. The International Conference on Exoplanets and Planet Formation, Dec 2025, Shanghai, China.',
+      'Zhuoya Cao, Yaping Li, Douglas N.C. Lin, Shude Mao, Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks. The 247th AAS Annual Meeting, Jan 2026, Phoenix, United States.'
     ]
   },
   {
@@ -62,11 +62,11 @@ const educationData = [
       ],
     publications: [
       {
-        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports',
+        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports.',
         link: 'https://www.nature.com/articles/s41598-025-29033-y'
       },
       {
-        text: 'Zhuoya Cao, Fujiang Yu, Mingyu Li, Zheng Cai*, HST to JWST Super-Resolution Imaging by ControlNet, in preparation',
+        text: 'Zhuoya Cao, Fujiang Yu, Mingyu Li, Zheng Cai*, HST to JWST Super-Resolution Imaging by ControlNet, in preparation.',
         link: ''
       }
     ],
@@ -77,7 +77,7 @@ const educationData = [
       }
     ],
     posters: [
-      'Zhuoya Cao, Abraham Loeb, Morgan MacLeod, A Comet Shower at the Pliocene-Pleistocene Transition Triggered by the Close Approach of HD7977. The Annual Meeting of the Earth 2.0 Space Mission, Aug 2025, Shanghai, China'
+      'Zhuoya Cao, Abraham Loeb, Morgan MacLeod, A Comet Shower at the Pliocene-Pleistocene Transition Triggered by the Close Approach of HD7977. The Annual Meeting of the Earth 2.0 Space Mission, Aug 2025, Shanghai, China.'
     ]
   },
   {
@@ -134,7 +134,7 @@ export default function EducationTimeline() {
               rel="noopener noreferrer"
               // ml-2 用于分隔文本和 [link] 标签
               // text-primary 用于保持链接颜色，并提供 hover 效果
-              className="ml-2 text-base hover:text-primary/80 transition-colors inline-flex items-center"
+              className="ml-2 text-primary hover:text-primary/80 transition-colors inline-flex items-center"
             >
               [link]
               <ExternalLink className="ml-1 h-3 w-3" /> 
